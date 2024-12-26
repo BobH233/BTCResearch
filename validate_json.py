@@ -73,7 +73,7 @@ def validate_klines(klines):
         return True, "所有K线数据的open_time严格按照每小时递增，且无重复或缺失。"
 
 def main():
-    file_path = 'DOGEUSDT_historical_klines.json'  # JSON文件路径
+    file_path = './tmp/DOGEUSDT_historical_10y_klines.json'  # JSON文件路径
     print(f"正在加载文件: {file_path}...")
     klines = load_klines(file_path)
 

@@ -126,5 +126,5 @@ def calculate_indicators(input_file):
     print(f"输出文件路径: {output_file}")
 
 if __name__ == "__main__":
-    input_filename = 'BTCUSDT_historical_klines.json'
+    input_filename = 'DOGEUSDT_historical_klines.json'
     calculate_indicators(input_filename)
